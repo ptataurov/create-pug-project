@@ -1,0 +1,29 @@
+@include import-font('Montserrat', 700) {
+  src: url('../../public/fonts/ttf/Montserrat-Bold.ttf') format('truetype'),
+    url('../../public/fonts/woff/Montserrat-Bold.woff') format('woff'),
+    url('../../public/fonts/woff2/Montserrat-Bold.woff2') format('woff2');
+}
+
+@include import-font('Montserrat', 600) {
+  src: url('../../public/fonts/ttf/Montserrat-SemiBold.ttf') format('truetype'),
+    url('../../public/fonts/woff/Montserrat-SemiBold.woff') format('woff'),
+    url('../../public/fonts/woff2/Montserrat-SemiBold.woff2') format('woff2');
+}
+
+@include import-font('Montserrat', 500) {
+  src: url('../../public/fonts/ttf/Montserrat-Medium.ttf') format('truetype'),
+    url('../../public/fonts/woff/Montserrat-Medium.woff') format('woff'),
+    url('../../public/fonts/woff2/Montserrat-Medium.woff2') format('woff2');
+}
+
+@include import-font('Montserrat', 400) {
+  src: url('../../public/fonts/ttf/Montserrat-Regular.ttf') format('truetype'),
+    url('../../public/fonts/woff/Montserrat-Regular.woff') format('woff'),
+    url('../../public/fonts/woff2/Montserrat-Regular.woff2') format('woff2');
+}
+
+@include import-font('Montserrat', 300) {
+  src: url('../../public/fonts/ttf/Montserrat-Light.ttf') format('truetype'),
+    url('../../public/fonts/woff/Montserrat-Light.woff') format('woff'),
+    url('../../public/fonts/woff2/Montserrat-Light.woff2') format('woff2');
+}

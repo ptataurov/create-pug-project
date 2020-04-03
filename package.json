@@ -1,0 +1,82 @@
+{
+  "name": "create-pug-project",
+  "version": "1.0.0",
+  "author": "Pavel Tataurov <tataurov.dev@gmail.com>",
+  "main": "bin/index.js",
+  "license": "MIT",
+  "bin": {
+    "create-pug-project": "bin/index.js"
+  },
+  "prettier": {
+    "tabWidth": 2,
+    "semi": false,
+    "singleQuote": true,
+    "jsxSingleQuote": true,
+    "jsxBracketSameLine": true
+  },
+  "eslintConfig": {
+    "env": {
+      "es6": true,
+      "browser": true,
+      "node": true
+    },
+    "extends": [
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "ecmaVersion": 2018,
+      "sourceType": "module"
+    },
+    "globals": {
+      "$": true
+    },
+    "rules": {
+      "no-unused-vars": [
+        "error",
+        {
+          "ignoreRestSiblings": true
+        }
+      ],
+      "indent": [
+        "error",
+        2,
+        {
+          "SwitchCase": 1
+        }
+      ],
+      "padding-line-between-statements": [
+        "error",
+        {
+          "blankLine": "always",
+          "prev": "*",
+          "next": "return"
+        }
+      ],
+      "quotes": [
+        "error",
+        "single"
+      ],
+      "semi": [
+        "error",
+        "never"
+      ],
+      "no-var": "error"
+    }
+  },
+  "dependencies": {
+    "fs-extra": "^8.1.0",
+    "yargs": "^15.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ptataurov/create-pug-project.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ptataurov/create-pug-project/issues"
+  },
+  "homepage": "https://github.com/ptataurov/create-pug-project#readme",
+  "description": ""
+}

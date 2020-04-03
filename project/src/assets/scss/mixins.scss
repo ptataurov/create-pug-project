@@ -1,0 +1,62 @@
+@mixin container {
+  max-width: 1280px;
+  margin-right: auto;
+  margin-left: auto;
+
+  @media (max-width: 1327.98px) {
+    padding-right: 24px;
+    padding-left: 24px;
+  }
+}
+
+@mixin flex(
+  $flex-direction: row,
+  $align-items: center,
+  $justify-content: center
+) {
+  display: flex;
+  flex-direction: $flex-direction;
+  align-items: $align-items;
+  justify-content: $justify-content;
+}
+
+@mixin img-resp {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: 100%;
+}
+
+@mixin less-sm {
+  @media (max-width: $sm) {
+    @content;
+  }
+}
+
+@mixin less-md {
+  @media (max-width: $md) {
+    @content;
+  }
+}
+
+@mixin less-lg {
+  @media (max-width: $lg) {
+    @content;
+  }
+}
+
+@mixin less-xl {
+  @media (max-width: $xl) {
+    @content;
+  }
+}
+
+@mixin import-font($name, $weight) {
+  @font-face {
+    font-weight: $weight;
+    font-family: $name;
+    font-display: swap;
+    font-style: normal;
+    @content;
+  }
+}

@@ -1,0 +1,37 @@
+@import '~normalize.css/normalize.css';
+@import 'vars';
+@import 'mixins';
+@import 'fonts';
+@import 'reset';
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  @include container;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.mt-2 {
+  margin-top: 2rem;
+}
+
+.mb-2 {
+  margin-bottom: 2rem;
+}
+
+.mx-2 {
+  margin: 0 2rem;
+}
+
+.my-2 {
+  margin: 2rem 0;
+}

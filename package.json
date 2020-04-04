@@ -1,6 +1,6 @@
 {
   "name": "create-pug-project",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Pavel Tataurov <tataurov.dev@gmail.com>",
   "main": "bin/index.js",
   "license": "MIT",
